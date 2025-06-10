@@ -43,12 +43,12 @@ const programsData = [
   },
   {
     title: "Painting & Decoration",
-    items: ["Introduction to painting", "Decorative skills"],
+    items: ["House Painting","Paint Production","Introduction to painting", "Decorative skills"],
     image: "/painting.png",
   },
   {
     title: "Event Planning",
-    items: ["Event planning fundamentals", "Basic management skills"],
+    items: ["Decoration", "Baking Cakes","Event planning fundamentals", "Basic management skills"],
     image: "/planing.png",
   },
   {
