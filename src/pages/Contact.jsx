@@ -14,10 +14,10 @@ const Contact = () => {
           </p>
 
           <h3>Email</h3>
-          <p>info@samkokoinitiative.org</p>
+          <p> samkokomediainitiative@gmail.com</p>
 
           <h3>Phone</h3>
-          <p>+234 802 295 5954</p>
+          <p>+2348051709865</p>
         </div>
 
         <div className="contact-form">

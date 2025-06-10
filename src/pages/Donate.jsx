@@ -22,7 +22,7 @@ const Donate = () => {
           <img src="https://cdn-icons-png.flaticon.com/512/2107/2107957.png" alt="Bank Transfer" />
           <h3>Bank Transfer</h3>
           <p><strong>Account Name:</strong> Samkoko Media Initiative</p>
-          <p><strong>Account Number:</strong> 1234567890</p>
+          <p><strong>Account Number:</strong> 1307113165</p>
           <p><strong>Bank:</strong> Providus Bank Nigeria</p>
         </div>
 
