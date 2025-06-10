@@ -1,7 +1,8 @@
+import React, { useState } from 'react';
 import '../styles/home.css';
 import { Link } from 'react-router-dom';
-import GalleryGrid from '../components/GalleryGrid';
 import VisionSection from '../components/VisionSection';
+import GalleryModal from '../components/GalleryModal';
 
 // Import icons from react-icons (make sure to install react-icons with npm/yarn)
 import { FaHandHoldingHeart, FaLaptopCode, FaSchool, FaUserFriends, FaHandsHelping, FaTools } from 'react-icons/fa';
@@ -16,6 +17,8 @@ const objectivesData = [
 ];
 
 const Home = () => {
+    
+   
   return (
     <div className="dashboard home-page">
 
@@ -23,8 +26,9 @@ const Home = () => {
       <section className="hero-section">
         <div className="hero-content">
           <div className="hero-text">
-            <h1>SAMKOKO MEDIA INITIATIVE</h1>
-            <p>
+           
+            <h3>SAMKOKO MEDIA INITIATIVE</h3>
+            <p style={{fontSize:'13px'}}>
               Empowering Youth and Children through Education, Technology, and Vocational Skills.
             </p>
             <div className="hero-buttons">
@@ -43,7 +47,7 @@ const Home = () => {
 
       {/* Objectives Section */}
       <section className="objectives-section">
-        <h2>Our Objectives</h2>
+        <h2 style={{fontSize:'22px'}}>Our Objectives</h2>
         <div className="objectives-grid">
           {objectivesData.map(({ icon, text }, idx) => (
             <div className="objective-card" key={idx}>
@@ -55,7 +59,9 @@ const Home = () => {
         <Link to="/programs" className="btn see-programs-btn">See Our Programs</Link>
 
         <VisionSection />
-        <GalleryGrid />
+     
+
+      <GalleryModal/>
       </section>
 
     </div>

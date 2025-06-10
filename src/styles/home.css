@@ -61,7 +61,6 @@
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
-  font-weight: bold;
   transition: 0.3s ease;
   cursor: pointer;
 }
@@ -142,8 +141,8 @@
 
 /* Text */
 .objective-card p {
-  font-weight: 600;
-  font-size: 1.18rem;
+  font-weight: 300;
+  font-size: 1rem;
   line-height: 1.6;
   margin: 0;
   color: #333;

@@ -11,6 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-container">
+       
         <Link to="/" className="nav-logo">
           SAMKOKO MEDIA INITIATIVE
         </Link>

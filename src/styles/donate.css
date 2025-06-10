@@ -39,8 +39,8 @@
 }
 
 .donate-box img {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 15px;
 }
 
@@ -52,6 +52,7 @@
 .donate-box p {
   margin: 4px 0;
   color: #333;
+  line-height: 28px;
 }
 
 .donate-btn {

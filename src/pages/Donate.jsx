@@ -19,7 +19,7 @@ const Donate = () => {
         </div>
 
         <div className="donate-box">
-          <img src="providus.png" alt="Bank Transfer" style={{height:'100px',width:'100px'}} />
+          <img src="providus.png" alt="Bank Transfer" />
           <h3>Bank Transfer</h3>
           <p><strong>Account Name:</strong> Samkoko Media Initiative</p>
           <p><strong>Account Number:</strong> 1307113165</p>

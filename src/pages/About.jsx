@@ -16,8 +16,8 @@ const About = () => {
       </div>
 
       {/* Introduction */}
-      <section className="about-intro">
-        <p>
+      <section className="about-intro" >
+        <p >
           SAMKOKO MEDIA INITIATIVE is a youth-focused organization that provides empowerment through education, digital literacy, and vocational training for individuals between the ages of 12 to 35. Our programs are designed to build sustainable futures by equipping young people with essential 21st-century skills.
         </p>
       </section>
