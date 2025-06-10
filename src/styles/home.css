@@ -1,0 +1,195 @@
+.home-page {
+  font-family: sans-serif;
+  background: #ffffff;
+  color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+  background: #2E8B57;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-image {
+  overflow: hidden;
+  border-bottom-left-radius: 60% 20%;
+  border-bottom-right-radius: 60% 20%;
+  max-height: 400px;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.4s ease;
+}
+
+@media (max-width: 600px) {
+  .hero-image {
+    border-bottom-left-radius: 80% 30%;
+    border-bottom-right-radius: 80% 30%;
+    max-height: 250px;
+  }
+}
+
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.btn.green {
+  background: #28a745;
+  color: white;
+}
+
+.btn.green:hover {
+  background: #218838;
+}
+
+.btn.yellow {
+  background: #FFD700;
+  color: #333;
+}
+
+.btn.yellow:hover {
+  background: #e6c200;
+}
+
+/* Objectives Section */
+.objectives-section {
+  padding: 80px 20px 100px;
+  background: #fefefe;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.objectives-section h2 {
+  font-size: 2.8rem;
+  margin-bottom: 60px;
+  color: #2e8b57;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+
+/* Grid Container */
+.objectives-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px 35px;
+  padding: 0 15px;
+}
+
+/* Card style */
+.objective-card {
+  background: linear-gradient(145deg, #ffffff, #f7f9f8);
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+  padding: 40px 30px 35px;
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.objective-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Icon container */
+.objective-card .icon {
+  background-color: #ffd700;
+  border-radius: 50%;
+  color: #2e8b57;
+  font-size: 2.8rem;
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+  flex-shrink: 0;
+}
+
+/* Text */
+.objective-card p {
+  font-weight: 600;
+  font-size: 1.18rem;
+  line-height: 1.6;
+  margin: 0;
+  color: #333;
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+  .objectives-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+  }
+
+  .objective-card {
+    flex-direction: row;
+    padding: 30px 20px 25px;
+    gap: 18px;
+  }
+
+  .objective-card .icon {
+    width: 50px;
+    height: 50px;
+    font-size: 2.2rem;
+  }
+
+  .objective-card p {
+    font-size: 1.05rem;
+  }
+}
+
+/* New "See Our Programs" button */
+
+.see-programs-btn {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.see-programs-btn:hover {
+  background-color: #218838;
+}
