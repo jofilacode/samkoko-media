@@ -24,8 +24,8 @@ const Footer = () => {
         <div className="footer-section contact">
           <h4>Contact Us</h4>
           <p>No 2. Fatesin Street by Leha Road,<br /> Off City College, Mararaba, Nasarawa State</p>
-          <p>Email: info@samkokoinitiative.org</p>
-          <p>Phone: +234 800 000 0000</p>
+          <p>Email: samkokomediainitiative@gmail.com</p>
+          <p>Phone: +2348051709865</p>
         </div>
       </div>
 
