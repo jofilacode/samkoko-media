@@ -10,7 +10,7 @@ const programsData = [
       "Web development & graphics",
       "Cybersecurity fundamentals",
     ],
-    image: "https://cdn-icons-png.flaticon.com/512/2721/2721296.png",
+    image: "/computer.png" 
   },
   {
     title: "Film Production",
@@ -21,7 +21,7 @@ const programsData = [
       "Live streaming",
       "Content creation",
     ],
-    image: "https://cdn-icons-png.flaticon.com/512/1903/1903162.png",
+    image: "/camera.png",
   },
   {
     title: "Audio Production",
@@ -39,42 +39,42 @@ const programsData = [
       "Basics of AC & DC systems",
       "Maintenance techniques",
     ],
-    image: "https://cdn-icons-png.flaticon.com/512/6339/6339591.png",
+    image: "/electrical.png",
   },
   {
     title: "Painting & Decoration",
     items: ["Introduction to painting", "Decorative skills"],
-    image: "https://cdn-icons-png.flaticon.com/512/3064/3064072.png",
+    image: "/painting.png",
   },
   {
     title: "Event Planning",
     items: ["Event planning fundamentals", "Basic management skills"],
-    image: "https://cdn-icons-png.flaticon.com/512/3523/3523063.png",
+    image: "/planing.png",
   },
   {
     title: "Fashion Design & Tailoring",
     items: ["Fashion design theory", "Basic tailoring techniques"],
-    image: "https://cdn-icons-png.flaticon.com/512/1995/1995525.png",
+    image: "/fashion.png",
   },
   {
     title: "Salon & Make-up",
     items: ["Basic salon operations", "Make-up artistry"],
-    image: "https://cdn-icons-png.flaticon.com/512/1007/1007940.png",
+    image: "/makeup.png",
   },
   {
     title: "Vulcanizing",
     items: ["Fundamentals of vulcanizing"],
-    image: "https://cdn-icons-png.flaticon.com/512/2965/2965567.png",
+    image: "vulcan.png",
   },
   {
     title: "Shoe Production",
     items: ["Footwear creation basics"],
-    image: "https://cdn-icons-png.flaticon.com/512/2096/2096742.png",
+    image: "shoe.png",
   },
   {
     title: "Driving & Road Safety",
     items: ["Driving techniques", "Road safety awareness"],
-    image: "https://cdn-icons-png.flaticon.com/512/1144/1144474.png",
+    image: "driving.png",
   },
 ];
 
